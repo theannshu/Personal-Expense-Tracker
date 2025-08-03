@@ -29,12 +29,7 @@ This project was developed as part of my **Data Science Internship** to demonstr
 
 ---
 
-## 📦 Installation
-
-Clone the repository:
-```bash
-git clone https://github.com/theannshu/Personal-Expense-Tracker.git
-cd Personal-Expense-Tracker
+---
 
 ## 📂 Project Structure
 
@@ -57,3 +52,11 @@ Indian Institute of Technology Patna
 
 ## 🏢 Internship Provider
 GUVI – An HCL Company
+
+## 📦 Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/theannshu/Personal-Expense-Tracker.git
+cd Personal-Expense-Tracker
+
