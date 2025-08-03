@@ -33,13 +33,14 @@ This project was developed as part of my **Data Science Internship** to demonstr
 
 ## 📂 Project Structure
 
-Personal-Expense-Tracker/
-│-- app.py # Main Streamlit app
-│-- expense_data.csv # Sample dataset (can be replaced with your own)
-│-- requirements.txt # Python dependencies
-│-- .gitignore # Ignored files
-│-- README.md # Project documentation
-│-- screenshots/ # Project screenshots
+**Personal-Expense-Tracker**:
+
+│ - app.py # Main Streamlit app
+│ - expense_data.csv # Sample dataset (can be replaced with your own)
+│ - requirements.txt # Python dependencies
+│ - .gitignore # Ignored files
+│ - README.md # Project documentation
+│ - screenshots/ # Project screenshots
 
 ---
 
