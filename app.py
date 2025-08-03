@@ -38,7 +38,7 @@ with st.sidebar.form("add_form", clear_on_submit=True):
     exp_date = st.date_input("Date", date.today())
     
 
-    # The category list is now updated and simplified.
+    
     category = st.selectbox("Category", ["Food", "Rent", "Travel & Transport", "Shopping", "Bills", "Entertainment", "Other"])
     
     amount = st.number_input("Amount (₹)", min_value=0.01, step=0.01)
@@ -48,7 +48,9 @@ with st.sidebar.form("add_form", clear_on_submit=True):
     if submitted:
         new_data = pd.DataFrame([[exp_date, category, amount, description]], columns=df.columns)
         df = pd.concat([df, new_data], ignore_index=True)
-        # Ensure the combined category is saved correctly
+
+        
+
         df['Category'] = df['Category'].replace(['Travel', 'Transport'], 'Travel & Transport')
         df.to_csv(DATA_FILE, index=False)
         st.sidebar.success("✅ Expense added!")
