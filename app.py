@@ -29,8 +29,6 @@ def load_data():
 
 df = load_data()
 
-# --- FIX #1: MERGE OLD DATA ---
-# This line merges any old 'Travel' and 'Transport' entries into a single category.
 df['Category'] = df['Category'].replace(['Travel', 'Transport'], 'Travel & Transport')
 
 
@@ -39,7 +37,7 @@ st.sidebar.header("➕ Add New Expense")
 with st.sidebar.form("add_form", clear_on_submit=True):
     exp_date = st.date_input("Date", date.today())
     
-    # --- FIX #2: UPDATE INPUT OPTIONS ---
+
     # The category list is now updated and simplified.
     category = st.selectbox("Category", ["Food", "Rent", "Travel & Transport", "Shopping", "Bills", "Entertainment", "Other"])
     
