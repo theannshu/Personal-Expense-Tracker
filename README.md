@@ -36,20 +36,5 @@ Clone the repository:
 git clone https://github.com/theannshu/Personal-Expense-Tracker.git
 cd Personal-Expense-Tracker
 
+---
 
-📂 Project Structure
-
-Personal-Expense-Tracker/
-│-- app.py                # Main Streamlit app
-│-- expense_data.csv      # Sample dataset (can be replaced with your own)
-│-- requirements.txt      # Python dependencies
-│-- .gitignore            # Ignored files
-│-- README.md             # Project documentation
-│-- screenshots/          # Project screenshots
-
-
-
-📌 Author
-Anshu Kumar
-Bsc Hons in Computer Science and Data Analytics (4th Sem) - IIT Patna
-Internship Provider Company - Guvi HCL
