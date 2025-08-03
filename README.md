@@ -61,3 +61,9 @@ Clone the repository:
 git clone https://github.com/theannshu/Personal-Expense-Tracker.git
 cd Personal-Expense-Tracker
 
+Install dependencies:
+pip install -r requirements.txt
+
+Run the application:
+streamlit run app.py
+
