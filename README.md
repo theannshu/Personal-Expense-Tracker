@@ -35,7 +35,7 @@ This project was developed as part of my **Data Science Internship** to demonstr
 
 **Personal-Expense-Tracker/**
 - `app.py` — Main Streamlit app
-- `expense_data.csv` — Sample dataset (can be replaced with your own)
+- `expense_data.csv` — Sample dataset 
 - `requirements.txt` — Python dependencies
 - `.gitignore` — Ignored files
 - `README.md` — Project documentation
